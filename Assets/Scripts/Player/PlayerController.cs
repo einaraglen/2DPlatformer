@@ -116,6 +116,7 @@ public class PlayerController : MonoBehaviour
     public GameObject jumpEffect = null;
     [Tooltip("Layers to pass through when moving upwards")]
     public List<string> passThroughLayers = new List<string>();
+    public bool isInSuperState = false;
 
     // The number of times this player has jumped since being grounded
     private int timesJumped = 0;
